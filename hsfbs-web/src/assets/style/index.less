@@ -1,0 +1,151 @@
+@import "./config";
+@import "./color";
+@import "./mixin";
+* {
+  font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; /* 1 */
+  box-sizing: border-box;
+  margin: 0;
+  text-decoration: none;
+  outline: none;
+  border: 0;
+  padding: 0;
+  list-style: none;
+}
+
+*::-webkit-scrollbar {
+  display: block;
+  width: 6px;
+  height: 1px;
+}
+
+*::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: #BBB;
+}
+
+*::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background: #EDEDED;
+}
+
+html, body {
+  background-color: @theme-background-color;
+  font-size: 16px;
+  min-width: @window-min-width;
+  height: 100vh;
+  overflow-y: hidden;
+}
+
+a {
+  cursor: pointer;
+}
+
+button{
+  background-color: transparent;
+  color:inherit;
+  font-size: inherit;
+  cursor: pointer;
+}
+
+.container{
+  display: flex;
+  >aside{
+    height:  @page-height;
+    overflow: auto;
+  }
+  >main{
+    height: @page-height;
+    flex: 1;
+    overflow: auto;
+    .main-padding{
+      padding:@main-padding
+    }
+  }
+}
+
+.spacing(@index) when (@index >= 0) {
+  .pa-@{index} {
+    padding: (@index * @gap);
+  }
+  .pl-@{index} {
+    padding-left: (@index * @gap);
+  }
+  .pr-@{index} {
+    padding-right: (@index * @gap);
+  }
+  .pt-@{index} {
+    padding-top: (@index * @gap);
+  }
+  .pb-@{index} {
+    padding-bottom: (@index * @gap);
+  }
+  .py-@{index} {
+    padding-top: (@index * @gap);
+    padding-bottom: (@index * @gap);
+  }
+  .px-@{index} {
+    padding-left: (@index * @gap);
+    padding-right: (@index * @gap);
+  }
+
+
+  .ml-@{index} {
+    margin-left: (@index * @gap);
+  }
+  .mr-@{index} {
+    margin-right: (@index * @gap);
+  }
+  .mt-@{index} {
+    margin-top: (@index * @gap);
+  }
+  .mb-@{index} {
+    margin-bottom: (@index * @gap);
+  }
+  .my-@{index} {
+    margin-top: (@index * @gap);
+    margin-bottom: (@index * @gap);
+  }
+  .mx-@{index} {
+    margin-left: (@index * @gap);
+    margin-right: (@index * @gap);
+  }
+  .ma-@{index} {
+    margin: (@index * @gap);
+  }
+
+  .spacing(@index - 1);
+}
+
+.spacing(12);
+
+.d-flex {
+  display: flex;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
