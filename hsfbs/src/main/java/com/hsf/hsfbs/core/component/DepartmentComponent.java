@@ -1,8 +1,8 @@
 package com.hsf.hsfbs.core.component;
 
 
-import com.hsf.hsfbs.entity.entity.Department;
-import com.hsf.hsfbs.service.service.UserService;
+import com.hsf.hsfbs.entity.Department;
+import com.hsf.hsfbs.service.UserService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

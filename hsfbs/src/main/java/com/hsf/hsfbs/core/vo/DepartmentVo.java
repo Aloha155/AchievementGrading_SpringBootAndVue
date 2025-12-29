@@ -3,7 +3,7 @@ package com.hsf.hsfbs.core.vo;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import com.hsf.hsfbs.entity.entity.Department;
+import com.hsf.hsfbs.entity.Department;
 
 /**
  * @author yujie

@@ -3,10 +3,10 @@ package com.hsf.hsfbs.service.impl;
 
 import com.hsf.hsfbs.core.base.BaseServiceImpl;
 import com.hsf.hsfbs.core.exception.NotFoundException;
-import com.hsf.hsfbs.entity.constant.RoleGrade;
-import com.hsf.hsfbs.entity.dao.RoleDao;
-import com.hsf.hsfbs.entity.entity.Role;
-import com.hsf.hsfbs.service.service.RoleService;
+import com.hsf.hsfbs.constant.RoleGrade;
+import com.hsf.hsfbs.dao.RoleDao;
+import com.hsf.hsfbs.entity.Role;
+import com.hsf.hsfbs.service.RoleService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;

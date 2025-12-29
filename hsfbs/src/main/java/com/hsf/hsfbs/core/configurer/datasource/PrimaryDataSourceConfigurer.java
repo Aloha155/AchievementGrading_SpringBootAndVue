@@ -35,7 +35,7 @@ import java.util.Objects;
 @EnableJpaRepositories(
         entityManagerFactoryRef = "entityManagerFactoryPrimary",
         transactionManagerRef = "transactionManagerPrimary",
-        basePackages = {"com.hsf.hsfbs.entity.dao"}
+        basePackages = {"com.hsf.hsfbs.dao"}
 )
 public class PrimaryDataSourceConfigurer {
 
@@ -65,7 +65,7 @@ public class PrimaryDataSourceConfigurer {
         return builder
                 .dataSource(primaryDataSource())
                 .properties(properties)
-                .packages("com.hsf.hsfbs.entity.entity")
+                .packages("com.hsf.hsfbs.entity")
                 .persistenceUnit("primaryPersistenceUnit")
                 .build();
     }

@@ -1,11 +1,11 @@
 package com.hsf.hsfbs.core.component;
 
 
-import com.hsf.hsfbs.entity.entity.Department;
-import com.hsf.hsfbs.entity.entity.Role;
-import com.hsf.hsfbs.entity.entity.UserDepartment;
-import com.hsf.hsfbs.entity.entity.UserRole;
-import com.hsf.hsfbs.service.service.*;
+import com.hsf.hsfbs.entity.Department;
+import com.hsf.hsfbs.entity.Role;
+import com.hsf.hsfbs.entity.UserDepartment;
+import com.hsf.hsfbs.entity.UserRole;
+import com.hsf.hsfbs.service.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -2,8 +2,8 @@ package com.hsf.hsfbs.core.dto;
 
 
 import com.hsf.hsfbs.core.annotations.StringLength;
-import com.hsf.hsfbs.entity.constant.RoleGrade;
-import com.hsf.hsfbs.entity.constant.UserSex;
+import com.hsf.hsfbs.constant.RoleGrade;
+import com.hsf.hsfbs.constant.UserSex;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

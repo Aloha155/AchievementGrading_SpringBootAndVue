@@ -3,9 +3,9 @@ package com.hsf.hsfbs.service.impl;
 
 import com.hsf.hsfbs.core.base.BaseServiceImpl;
 import com.hsf.hsfbs.core.exception.NotFoundException;
-import com.hsf.hsfbs.entity.dao.UserRoleDao;
-import com.hsf.hsfbs.entity.entity.UserRole;
-import com.hsf.hsfbs.service.service.UserRoleService;
+import com.hsf.hsfbs.dao.UserRoleDao;
+import com.hsf.hsfbs.entity.UserRole;
+import com.hsf.hsfbs.service.UserRoleService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;

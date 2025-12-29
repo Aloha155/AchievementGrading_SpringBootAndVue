@@ -11,11 +11,11 @@ import com.hsf.hsfbs.core.exception.ProgramException;
 import com.hsf.hsfbs.core.util.RegexUtil;
 import com.hsf.hsfbs.core.vo.DepartmentVo;
 import com.hsf.hsfbs.core.vo.UserVo;
-import com.hsf.hsfbs.entity.constant.RoleGrade;
-import com.hsf.hsfbs.entity.entity.*;
-import com.hsf.hsfbs.service.service.*;
-import com.hsf.hsfbs.service.verifyManage.DepartmentVerifyManage;
-import com.hsf.hsfbs.service.verifyManage.UserVerifyManage;
+import com.hsf.hsfbs.constant.RoleGrade;
+import com.hsf.hsfbs.entity.*;
+import com.hsf.hsfbs.service.*;
+import com.hsf.hsfbs.service.validation.DepartmentValidator;
+import com.hsf.hsfbs.service.validation.UserValidator;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -62,10 +62,10 @@ public class DepartmentController {
 
 
     @Autowired
-    private UserVerifyManage userVerifyManage;
+    private UserValidator userVerifyManage;
 
     @Autowired
-    private DepartmentVerifyManage departmentVerifyManage;
+    private DepartmentValidator departmentVerifyManage;
 
     @Autowired
     private UserComponent userComponent;

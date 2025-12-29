@@ -1,11 +1,11 @@
 import Vue from "vue"
 import VueRouter from "vue-router"
 import Cookies from "js-cookie"
-import department from "../view/department/script/router";
-import performance from "../view/performance/script/router";
-import business from "../view/business/script/router"
-import user from "../view/user/script/router";
-import admin from "../view/admin/script/router";
+import department from "../views/department/script/router";
+import performance from "../views/performance/script/router";
+import business from "../views/business/script/router"
+import user from "../views/user/script/router";
+import admin from "../views/admin/script/router";
 Vue.use(VueRouter);
 
 const routes = [
@@ -13,7 +13,7 @@ const routes = [
         path: "/",
         name: "content",
         redirect: "/department",
-        component: () => import("../view/Content"),
+        component: () => import("../views/Content"),
         children: [
             ...department,
             ...user,
@@ -25,7 +25,7 @@ const routes = [
     {
         path: "/login",
         name: "login",
-        component: () => import("../view/Login")
+        component: () => import("../views/Login")
     }
 ];
 

@@ -2,8 +2,8 @@ package com.hsf.hsfbs.core.vo;
 
 
 import com.fasterxml.jackson.annotation.JsonFormat;
-import com.hsf.hsfbs.entity.constant.Rate;
-import com.hsf.hsfbs.entity.entity.Performance;
+import com.hsf.hsfbs.constant.Rate;
+import com.hsf.hsfbs.entity.Performance;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

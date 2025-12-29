@@ -3,10 +3,10 @@ package com.hsf.hsfbs.service.impl;
 
 import com.hsf.hsfbs.core.base.BaseServiceImpl;
 import com.hsf.hsfbs.core.util.RegexUtil;
-import com.hsf.hsfbs.entity.constant.UserBusinessState;
-import com.hsf.hsfbs.entity.dao.UserBusinessDao;
-import com.hsf.hsfbs.entity.entity.UserBusiness;
-import com.hsf.hsfbs.service.service.UserBusinessService;
+import com.hsf.hsfbs.constant.UserBusinessState;
+import com.hsf.hsfbs.dao.UserBusinessDao;
+import com.hsf.hsfbs.entity.UserBusiness;
+import com.hsf.hsfbs.service.UserBusinessService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.data.domain.Page;

@@ -3,9 +3,9 @@ package com.hsf.hsfbs.core.vo;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.hsf.hsfbs.core.util.SafetyUtil;
-import com.hsf.hsfbs.entity.constant.UserSex;
-import com.hsf.hsfbs.entity.entity.Address;
-import com.hsf.hsfbs.entity.entity.User;
+import com.hsf.hsfbs.constant.UserSex;
+import com.hsf.hsfbs.entity.Address;
+import com.hsf.hsfbs.entity.User;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.springframework.beans.BeanUtils;

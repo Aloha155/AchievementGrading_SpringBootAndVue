@@ -1,8 +1,8 @@
 package com.hsf.hsfbs.core.vo;
 
 
-import com.hsf.hsfbs.entity.constant.BusinessState;
-import com.hsf.hsfbs.entity.entity.Business;
+import com.hsf.hsfbs.constant.BusinessState;
+import com.hsf.hsfbs.entity.Business;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

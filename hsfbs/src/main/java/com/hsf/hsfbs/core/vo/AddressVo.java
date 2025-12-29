@@ -1,7 +1,7 @@
 package com.hsf.hsfbs.core.vo;
 
 
-import com.hsf.hsfbs.entity.entity.Address;
+import com.hsf.hsfbs.entity.Address;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

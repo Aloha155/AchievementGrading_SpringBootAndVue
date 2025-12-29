@@ -1,7 +1,7 @@
 package com.hsf.hsfbs.core.dto;
 
 
-import com.hsf.hsfbs.entity.constant.UserBusinessState;
+import com.hsf.hsfbs.constant.UserBusinessState;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

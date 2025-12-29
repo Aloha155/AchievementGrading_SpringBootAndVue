@@ -3,12 +3,12 @@ package com.hsf.hsfbs.service.impl;
 
 import com.hsf.hsfbs.core.base.BaseServiceImpl;
 import com.hsf.hsfbs.core.util.RegexUtil;
-import com.hsf.hsfbs.entity.constant.BusinessState;
-import com.hsf.hsfbs.entity.dao.DepartmentDao;
-import com.hsf.hsfbs.entity.entity.Business;
-import com.hsf.hsfbs.entity.entity.Department;
-import com.hsf.hsfbs.entity.entity.DepartmentBusiness;
-import com.hsf.hsfbs.service.service.DepartmentService;
+import com.hsf.hsfbs.constant.BusinessState;
+import com.hsf.hsfbs.dao.DepartmentDao;
+import com.hsf.hsfbs.entity.Business;
+import com.hsf.hsfbs.entity.Department;
+import com.hsf.hsfbs.entity.DepartmentBusiness;
+import com.hsf.hsfbs.service.DepartmentService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.data.domain.Page;

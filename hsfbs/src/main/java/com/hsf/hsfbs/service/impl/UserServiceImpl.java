@@ -5,9 +5,9 @@ import com.hsf.hsfbs.core.base.BaseServiceImpl;
 import com.hsf.hsfbs.core.exception.NotFoundException;
 import com.hsf.hsfbs.core.exception.ProgramException;
 import com.hsf.hsfbs.core.util.RegexUtil;
-import com.hsf.hsfbs.entity.dao.UserDao;
-import com.hsf.hsfbs.entity.entity.User;
-import com.hsf.hsfbs.service.service.UserService;
+import com.hsf.hsfbs.dao.UserDao;
+import com.hsf.hsfbs.entity.User;
+import com.hsf.hsfbs.service.UserService;
 import org.springframework.data.jpa.domain.Specification;
 import org.springframework.stereotype.Service;
 
